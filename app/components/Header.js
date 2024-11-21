@@ -1,4 +1,5 @@
-export function Header() {
+export function Header(path) {
+  let currentPath = path;
   const $header = document.createElement("div");
   $header.classList.add("container-fluid");
   $header.classList.add("px-5");
@@ -16,11 +17,11 @@ export function Header() {
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="index.html">Inicio</a>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/index.html">Inicio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Personajes</a>
+                                <a class="nav-link" href="/personajes.html">Personajes</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Mecanicas del juego</a>
@@ -43,5 +44,14 @@ export function Header() {
                         </ul>
                     </div>
                 </nav>`;
+
+  const navLinks = $header.querySelectorAll(".nav-link");
+
+  navLinks.forEach((link) => {
+    if (link.getAttribute("href") === currentPath) {
+      link.parentElement.classList.add("active");
+    }
+  });
+
   return $header;
 }

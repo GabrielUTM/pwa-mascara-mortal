@@ -1,12 +1,13 @@
 import { Footer } from "./components/Footer.js"
 import { Header } from "./components/Header.js"
-import { Loader } from "./components/Loader.js"
 
 export function App(){
     const d = document,
     $header = d.getElementById("header"), 
-    $footer = d.getElementById("footer")
+    $footer = d.getElementById("footer"),
+    currentPath = window.location.pathname; 
 
-    $header.appendChild(Header())
+    $header.appendChild(Header(currentPath))
     $footer.appendChild(Footer())
+    
 }

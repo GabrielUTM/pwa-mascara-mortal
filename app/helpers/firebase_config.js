@@ -10,13 +10,12 @@ import {
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBEAgG59FYSq8xv5Jd2TV-Y5FmB7u_S6fE",
-  authDomain: "practicaplanetas-4a148.firebaseapp.com",
-  databaseURL: "https://practicaplanetas-4a148-default-rtdb.firebaseio.com",
-  projectId: "practicaplanetas-4a148",
-  storageBucket: "practicaplanetas-4a148.firebasestorage.app",
-  messagingSenderId: "4136662476",
-  appId: "1:4136662476:web:b3aec17bc7ef705187d969",
+  apiKey: "AIzaSyBRGQBXX3hRRzbdW3FzOFOG-ABYiM4zC4M",
+  authDomain: "mascara-mortal.firebaseapp.com",
+  projectId: "mascara-mortal",
+  storageBucket: "mascara-mortal.firebasestorage.app",
+  messagingSenderId: "149560846252",
+  appId: "1:149560846252:web:e4d9acb2806109d0a67c09"
 };
 
 // Initialize Firebase

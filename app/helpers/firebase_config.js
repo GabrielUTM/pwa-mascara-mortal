@@ -10,12 +10,12 @@ import {
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBRGQBXX3hRRzbdW3FzOFOG-ABYiM4zC4M",
-  authDomain: "mascara-mortal.firebaseapp.com",
-  projectId: "mascara-mortal",
-  storageBucket: "mascara-mortal.firebasestorage.app",
-  messagingSenderId: "149560846252",
-  appId: "1:149560846252:web:e4d9acb2806109d0a67c09"
+  apiKey: "AIzaSyDxEndsUJaE5eDG9_CRT0GxSWj2tZE5k7g",
+  authDomain: "mascara-mortal-c1288.firebaseapp.com",
+  projectId: "mascara-mortal-c1288",
+  storageBucket: "mascara-mortal-c1288.firebasestorage.app",
+  messagingSenderId: "905656928147",
+  appId: "1:905656928147:web:2a24fb681fc3ab271d0a66",
 };
 
 // Initialize Firebase

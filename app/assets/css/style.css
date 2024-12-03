@@ -54,11 +54,12 @@ body {
 /* Home Page Header Section Style */
 
 .banner-section-outer {
-    background-image: url('../images/home_banner_background.png');
+    background-image: url('../images/sub_banner_background.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
+    background-color: #000;
     z-index: 1;
 }
 
@@ -2507,5 +2508,15 @@ textarea {
 
 .header__img {
     width: 100%;
+    height: 100%;
+}
+
+.gaming_tournament_image-figure {
+    height: 650px;
+    display: flex;
+    justify-content: center;
+}
+
+.gaming_tournament_image {
     height: 100%;
 }

@@ -1,16 +1,13 @@
-import { obtenerPersonajes } from "../helpers/fb_requests.js";
-
 export async function personajesCard() {
-  try {
-    const $personajes = document.getElementById("personajes")
-    const personajesList = await obtenerPersonajes();
-    console.log(personajesList);
-
-    personajesList.forEach((personaje) => {
-           $personajes.innerHTML += `<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+  personajesList.forEach((personaje) => {
+    $personajes.innerHTML += `<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                             <div class="popular_content padding_bottom">
                                 <div class="popular_upper_portion">
-                                    <figure class="mb-0 img_width"><img src="${personaje.imagen ? personaje.imagen : './app/assets/images/mascaratittle.png'}" alt="imagen de personaje">
+                                    <figure class="mb-0 img_width"><img src="${
+                                      personaje.imagen
+                                        ? personaje.imagen
+                                        : "./app/assets/images/mascaratittle.png"
+                                    }" alt="imagen de personaje">
                                     </figure>
                                     <div class="hover_box_plus"><a href="#">
                                             <figure class="mb-0"><img src="app/assets/images/box_hover_plus.png" alt="">
@@ -43,10 +40,5 @@ export async function personajesCard() {
                                 </div>
                             </div>
                         </div>`;
-    });
-  } catch (error) {
-    console.log("error al obtener los datos:", error);
-  }
-
-
+  });
 }

@@ -6,7 +6,7 @@ export function Header(path) {
   $header.innerHTML = `
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <a class="navbar-brand" href="index.html">
-                        <figure class="mb-0"><img src="app/assets/images/zomtek.png" alt="Logo"></figure>
+                        <figure class="mb-0"><img src="./app/assets/images/zomtek.png" alt="Logo"></figure>
                     </a>
                     <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -18,10 +18,10 @@ export function Header(path) {
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="/index.html">Inicio</a>
+                                <a class="nav-link" href="./index.html">Inicio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/personajes.html">Personajes</a>
+                                <a class="nav-link" href="./personajes.html">Personajes</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Mecanicas del juego</a>

@@ -2352,6 +2352,9 @@
     .figure__logo {
         display: none;
     }
+    .gaming_tournament_image{
+        margin-bottom: 0.5rem;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -3498,6 +3501,7 @@
 
     .gaming_tournament-section .gaming_tournament_content p {
         padding: 0px 0px 15px 0;
+        margin: 10px 0px 10px 0;
     }
 
     .benefits-content .join_benefit {

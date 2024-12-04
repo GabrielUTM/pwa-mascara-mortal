@@ -655,7 +655,8 @@ body {
 }
 
 .live_stream_section h2 {
-    margin-bottom: 20px;
+    margin-bottom: 27px;
+    padding-bottom: 15px;
 }
 
 .live_stream_section .mb-5,
@@ -2519,4 +2520,22 @@ textarea {
 
 .gaming_tournament_image {
     height: 100%;
+}
+.card__personajes{
+    width: 22rem;
+    max-height: 41rem;
+}
+.card__title{
+    font-size: 30px;
+    line-height: 40px;
+}
+.card__text{
+    font-size: 20px;
+}
+
+.card__text-content{
+    background-color: var(--e-global-color-accent);
+}
+.list__group-bg{
+    font-weight: 600;
 }

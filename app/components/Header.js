@@ -21,10 +21,7 @@ export function Header(path) {
                                 <a class="nav-link" href="./index.html">Inicio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./personajes.html">Personajes</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Mecanicas del juego</a>
+                                <a class="nav-link" href="./detalles-videojuego.html">Acerca del videojuego</a>
                             </li>
                             <li class="m-0">
                                 <a class="navbar-brand d-flex justify-content-center" href="index.html">

@@ -7,8 +7,8 @@ export function Footer() {
                 <div class="row">
                     <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
                         <ul class="links mb-0 list-unstyled">
-                            <li><a href="index.html">Inicio</a></li>
-                            <li><a href="games.html">Personajes</a></li>
+                            <li><a href="./index.html">Inicio</a></li>
+                            <li><a href="./detalles-videojuego.html">Acerca del videojuego</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">

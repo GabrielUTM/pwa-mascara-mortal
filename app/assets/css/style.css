@@ -832,7 +832,7 @@ body {
 }
 
 .blog_posts_section h2 {
-    margin-bottom: 20px;
+    margin-bottom: 2rem
 }
 
 .blog_posts_section .mb-5,
@@ -850,7 +850,7 @@ body {
 
 .blog_posts_content .lower_portion_wrapper {
     padding: 25px 0px;
-    text-align: left;
+    text-align: justify;
 }
 
 .blog_posts_content .lower_portion .span_wrapper {
@@ -2513,7 +2513,7 @@ textarea {
 }
 
 .gaming_tournament_image-figure {
-    height: 650px;
+    height: 680px;
     display: flex;
     justify-content: center;
 }
@@ -2522,8 +2522,7 @@ textarea {
     height: 100%;
 }
 .card__personajes{
-    width: 22rem;
-    max-height: 41rem;
+    max-height: 40rem;
 }
 .card__title{
     font-size: 30px;
@@ -2538,4 +2537,16 @@ textarea {
 }
 .list__group-bg{
     font-weight: 600;
+}
+
+.figure__inspiracion{
+    max-width: 600px;
+    margin: 0 auto 0 auto;
+}
+.img__inspiracion{
+    width: 100%;
+    height: 100%;
+}
+.text__subitulo{
+    text-align: center;
 }

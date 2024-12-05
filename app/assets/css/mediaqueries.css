@@ -3550,8 +3550,8 @@
     }
 
     .blog_posts_content .lower_portion_wrapper {
-        text-align: center;
-        padding: 20px 55px;
+        text-align: justify;
+        padding: 20px 10px;
     }
 
     .blog_posts_content .lower_portion p {

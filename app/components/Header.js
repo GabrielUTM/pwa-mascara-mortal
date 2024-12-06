@@ -1,10 +1,10 @@
 export function Header() {
-  const $container = document.createElement("div");
-  $container.classList.add("container-fluid");
-  $container.classList.add("px-5");
-  const $header = document.createElement("header");
+  const $header = document.createElement("div");
+  $header.classList.add("banner-section-outer");
 
-  $container.innerHTML = `
+  $header.innerHTML = `  
+  <header>
+         <div class="container-fluid px5">
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <a class="navbar-brand" href="index.html">
                         <figure class="mb-0"><img src="./app/assets/images/zomtek.png" alt="Logo"></figure>
@@ -41,9 +41,28 @@ export function Header() {
                             </li>
                         </ul>
                     </div>
-                </nav>`;
-
-  $header.appendChild($container);
+                </nav>
+        </div>
+    </header>
+      <!-- BANNER SECTION -->
+        <section class="banner-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12 text-lg-left text-center">
+                        <div class="banner-section-content">
+                            <h1 data-aos="fade-up" class="py-3 my-3">Una experiencia de juego sin igual</h1>
+                            <p data-aos="fade-right">Adentrate a una mezcla de acción, terror y comedia</p>
+                            <div class="btn_wrapper" data-aos="fade-down">
+                                <a class="text-decoration-none readmore_btn" href="match_detail.html">Ver más</a>
+                                <a class="text-decoration-none joinus_btn" href="signup.html">Contactanos</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12"></div>
+                </div>
+            </div>
+        </section>
+    `;
 
   return $header;
 }

@@ -1,19 +1,16 @@
 import { Footer } from "./components/Footer.js";
 import { Header } from "./components/Header.js";
-import { PersonajesCard } from "./components/PersonajesCard.js";
+import { Main } from "./components/Main.js";
+import { Router } from "./components/Router.js";
 
 export function App() {
   const d = document,
-    $header = d.getElementById("header"),
-    $footer = d.getElementById("footer"),
-    currentPath = `.${window.location.pathname}`;
-  console.log(currentPath);
+    $root = d.getElementById("root");
 
-  $header.appendChild(Header(currentPath));
-  $footer.appendChild(Footer());
+  $root.innerHTML = null;
+  $root.appendChild(Header());
+  $root.appendChild(Main());
+  $root.appendChild(Footer());
 
-  if (currentPath == "./detalles-videojuego.html") {
-    const personajesContainer = d.getElementById("personajes");
-    personajesContainer.appendChild(PersonajesCard());
-  }
+  Router();
 }

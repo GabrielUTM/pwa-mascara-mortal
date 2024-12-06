@@ -1,8 +1,10 @@
 export function Footer() {
-  const $footer = document.createElement("div");
-  $footer.classList.add("container");
+  const $footer = document.createElement("footer");
+  $footer.classList.add("footer-section");
+  const $container = document.createElement("div");
+  $container.classList.add("container");
 
-  $footer.innerHTML = `
+  $container.innerHTML = `
             <div class="middle-portion">
                 <div class="row">
                     <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
@@ -36,5 +38,6 @@ export function Footer() {
             <div class="copyright col-xl-12">
                 <p>Mascara Mortal - Apocalipsis Zombie, 2024, . Todos los derechos reservados.</p>
             </div>`;
+  $footer.appendChild($container);
   return $footer;
 }

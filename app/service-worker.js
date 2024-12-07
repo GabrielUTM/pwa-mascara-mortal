@@ -3,7 +3,7 @@ const CACHE_NAME = "mascara-mortal-pwa-cache-v1";
 const urlsToCache = [
   "./",
   "../index.html",
-  "./app/App.js",
+  "./App.js",
   "./app/index.js",
 ];
 

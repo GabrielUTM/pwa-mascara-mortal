@@ -1,10 +1,10 @@
 const CACHE_NAME = "mascara-mortal-pwa-cache-v1";
 
 const urlsToCache = [
-  "/pwa-mascara-mortal/",
-  "/pwa-mascara-mortal/index.html",
-  "/pwa-mascara-mortal/App.js",
-  "/pwa-mascara-mortal/index.js",
+  "./",
+  "../index.html",
+  "./app/App.js",
+  "./app/index.js",
 ];
 
 // Evento de instalación

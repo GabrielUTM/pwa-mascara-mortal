@@ -42,6 +42,10 @@ export function Header() {
                     </div>
                 </nav>
         </div>
+<<<<<<< HEAD
+=======
+    </header>
+>>>>>>> 1f9a555b5a1d57bd6846d8ed48911215cb54d998
       <!-- BANNER SECTION -->
         <section class="banner-section">
             <div class="container">

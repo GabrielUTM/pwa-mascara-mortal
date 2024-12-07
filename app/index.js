@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", App);
 
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker
-    .register("./service-worker.js")
+    .register("./app/service-worker.js")
     .then(function (registration) {
       console.log("Service worker registrado con exito:", registration);
     })

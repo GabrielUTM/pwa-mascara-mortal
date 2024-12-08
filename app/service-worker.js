@@ -4,6 +4,12 @@ const urlsToCache = [
   "../index.html",
   "./App.js",
   "./index.js",
+  "./assets/css/style.css",
+  "./assets/images/SANTOS.jpg",
+  "./assets/images/1.png",
+  "./assets/images/2.png",
+  "./assets/images/3.png",
+  "./assets/images/4.png",
 ];
 
 // Evento de instalación

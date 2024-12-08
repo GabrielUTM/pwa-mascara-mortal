@@ -10,14 +10,14 @@ export function Router() {
     $header = d.querySelector("header")
   let { hash } = location;
 
-  console.log(hash);
-
+  // manejo de rutas a traves de hash para servir contenido
   if (!hash || hash === "#/") {
     $header.innerHTML = null
     $header.appendChild(Header())
     $main.appendChild(InicioContent());
   } else if (hash === "#/detalles-videojuego.html") {
     $main.appendChild(DetallesVideojuego());
+    // obtener contenedor donde se van a desplegar los personajes
     const $personajesContainer = d.getElementById("personajes");
     $personajesContainer.insertAdjacentElement("beforeend", PersonajesCard());
   }

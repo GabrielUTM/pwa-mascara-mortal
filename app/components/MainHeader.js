@@ -1,6 +1,7 @@
 import { Nav } from "./Nav.js";
 
-export function MainHeader() {
+export function MainHeader(banner__titulo) {
+    const titulo = banner__titulo
   const $mainHeader = document.createElement("header");
   $mainHeader.classList.add("sub-banner-section");
 
@@ -13,7 +14,7 @@ export function MainHeader() {
                 <div class="row">
                     <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12 text-lg-left text-center">
                         <div class="banner-section-content">
-                            <h1 data-aos="fade-up">Acerca del juego</h1>
+                            <h1 data-aos="fade-up">${titulo}</h1>
 
                         </div>
                     </div>

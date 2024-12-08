@@ -1,8 +1,8 @@
 export function DetallesVideojuego() {
   const $detallesVideojuegos = document.createElement("div");
-  $detallesVideojuegos.classList.add("popular_games_section");
+  $detallesVideojuegos.classList.add("video_logo_section");
   $detallesVideojuegos.innerHTML = `
-     <h2 class="my-4 py-2" data-aos="fade-up">Historia Principal</h2>
+     <h2 class="my-4 py-2 text-center">Historia Principal</h2>
         <div class="container text-justify">
             <div class="row" data-aos="fade-right">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">

@@ -21,6 +21,9 @@ export function Nav() {
                             <li class="nav-item">
                                 <a class="nav-link" href="#/detalles-videojuego.html">Acerca del videojuego</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#/otros-videojuegos.html">Otros videojuegos</a>
+                            </li>
                             <li class="m-0">
                                 <a class="navbar-brand d-flex justify-content-center" href="index.html">
                                     <figure class="mb-0 figure__logo"><img src="app/assets/images/zomtek.png"

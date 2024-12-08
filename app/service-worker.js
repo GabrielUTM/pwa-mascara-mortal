@@ -1,6 +1,7 @@
 const CACHE_NAME = "mascara-mortal-pwa-cache-v1";
 
 const urlsToCache = [
+  // rutas relativas al archivo service-worker
   "../index.html",
   "./App.js",
   "./index.js",
@@ -10,6 +11,9 @@ const urlsToCache = [
   "./assets/images/2.png",
   "./assets/images/3.png",
   "./assets/images/4.png",
+  // Rutas externas
+  "https://mmo-games.p.rapidapi.com",
+  "https://www.mmobomb.com",
 ];
 
 // Evento de instalación

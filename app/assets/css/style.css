@@ -2613,3 +2613,20 @@ textarea {
     color: #fff !important;
     /* Asegura que el texto "Dificultad" sea blanco */
 }
+
+.error {
+    min-height: 300px;
+    background-color: var(--e-global-color-accent);
+    color: var(--e-global-color-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loader{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0 1rem 0;
+}

@@ -47,6 +47,7 @@ export async function GameCards() {
 
   $ContainerGameCard.appendChild($rowGames);
   $GameCard.appendChild($ContainerGameCard);
+  document.querySelector(".loader").style.display = "none";
 
   return $GameCard;
 }

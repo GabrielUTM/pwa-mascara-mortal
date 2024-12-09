@@ -2,7 +2,7 @@ export function Header() {
   const $header = document.createElement("header");
   const $nav = document.createElement("div");
   $header.classList.add("banner-section-outer");
-  $nav.classList.add("container-fluid", "px-3");
+  $nav.classList.add("container-fluid", "px-5");
   $nav.innerHTML = `
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <a class="navbar-brand" href="index.html">

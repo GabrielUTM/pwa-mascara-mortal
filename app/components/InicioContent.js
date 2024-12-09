@@ -27,7 +27,7 @@ export function InicioContent() {
                             de Sahuayo, Michoacán.
                         </p>
                         <div class="btn_wrapper">
-                            <a class="text-decoration-none readmore_btn" href="./detalles-videojuego.html">Ver más</a>
+                            <a class="text-decoration-none readmore_btn" href="#/detalles-videojuego">Ver más</a>
                         </div>
                     </div>
                 </div>

@@ -45,8 +45,6 @@ const characters = [
 export function PersonajesCard() {
   const $rowPersonajes = document.createElement("div");
   $rowPersonajes.classList.add("row");
-  $rowPersonajes.setAttribute("data-aos", "fade-up");
-
   characters.forEach((character) => {
     const $personajes = document.createElement("div");
     $personajes.classList.add(

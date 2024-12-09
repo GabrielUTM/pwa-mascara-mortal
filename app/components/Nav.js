@@ -1,9 +1,7 @@
-export function Header(path) {
-  let currentPath = path;
-  const $header = document.createElement("div");
-  $header.classList.add("container-fluid");
-  $header.classList.add("px-5");
-  $header.innerHTML = `
+export function Nav() {
+  const $nav = document.createElement("div");
+  $nav.classList.add("container-fluid", "px-5");
+  $nav.innerHTML = `
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <a class="navbar-brand" href="index.html">
                         <figure class="mb-0"><img src="./app/assets/images/zomtek.png" alt="Logo"></figure>
@@ -18,10 +16,13 @@ export function Header(path) {
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="./index.html">Inicio</a>
+                                <a class="nav-link" href="#/">Inicio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./detalles-videojuego.html">Acerca del videojuego</a>
+                                <a class="nav-link" href="#/detalles-videojuego.html">Acerca del videojuego</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#/otros-videojuegos.html">Otros videojuegos</a>
                             </li>
                             <li class="m-0">
                                 <a class="navbar-brand d-flex justify-content-center" href="index.html">
@@ -40,15 +41,7 @@ export function Header(path) {
                             </li>
                         </ul>
                     </div>
-                </nav>`;
-
-  const navLinks = $header.querySelectorAll(".nav-link");
-
-  navLinks.forEach((link) => {
-    if (link.getAttribute("href") === currentPath) {
-      link.parentElement.classList.add("active");
-    }
-  });
-
-  return $header;
+                </nav>
+    `;
+  return $nav;
 }

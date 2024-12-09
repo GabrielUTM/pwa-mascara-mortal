@@ -1,14 +1,8 @@
-import { Nav } from "./Nav.js";
-
-export function MainHeader(banner__titulo) {
-    const titulo = banner__titulo
-  const $mainHeader = document.createElement("header");
-  $mainHeader.classList.add("sub-banner-section");
-
-  $mainHeader.appendChild(Nav());
-
+export function MainBanner(banner__titulo) {
+  const titulo = banner__titulo;
   const $bannerSection = document.createElement("section");
   $bannerSection.classList.add("banner-section");
+
   $bannerSection.innerHTML = `
    <div class="container">
                 <div class="row">
@@ -22,7 +16,6 @@ export function MainHeader(banner__titulo) {
                 </div>
             </div>
   `;
-  $mainHeader.appendChild($bannerSection)
 
-  return $mainHeader;
+  return $bannerSection;
 }

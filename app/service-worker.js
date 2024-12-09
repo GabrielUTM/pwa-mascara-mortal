@@ -11,6 +11,7 @@ const urlsToCache = [
   "./assets/images/2.png",
   "./assets/images/3.png",
   "./assets/images/4.png",
+  "./helpers/api_requests.js",
   // Rutas externas
   "https://mmo-games.p.rapidapi.com",
   "https://www.mmobomb.com",

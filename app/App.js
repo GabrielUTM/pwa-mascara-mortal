@@ -1,5 +1,5 @@
 import { Footer } from "./components/Footer.js";
-import { Header } from "./components/HeaderInicio.js";
+import { Header } from "./components/Header.js";
 import { Main } from "./components/Main.js";
 import { Router } from "./components/Router.js";
 

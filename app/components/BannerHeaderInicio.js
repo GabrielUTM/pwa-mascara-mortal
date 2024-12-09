@@ -1,9 +1,4 @@
-import { Nav } from "./Nav.js";
-
-export function Header() {
-  const $header = document.createElement("header");
-  $header.classList.add("banner-section-outer");
-  $header.appendChild(Nav());
+export function BannerHeaderInicio() {
 
   const $bannerSection = document.createElement("section");
   $bannerSection.classList.add("banner-section");
@@ -24,7 +19,6 @@ export function Header() {
                 </div>
             </div>
     `;
-    $header.appendChild($bannerSection)
 
-  return $header;
+  return $bannerSection;
 }

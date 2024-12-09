@@ -2589,6 +2589,7 @@ textarea {
 
 .text-white {
     font-size: 0.85rem;
+    font-weight: 900;
     /* Reduce el texto de "Dificultad" */
 }
 

@@ -5,6 +5,7 @@ import { InicioContent } from "./InicioContent.js";
 import { MainBanner } from "./MainBanner.js";
 import { PersonajesCard } from "./PersonajesCard.js";
 import { Contacto } from "./Contacto.js";
+import { NivelesJuegos } from "./NivelesJuego.js";
 
 export async function Router() {
   const d = document,
@@ -19,18 +20,22 @@ export async function Router() {
     navLinks[0].parentElement.classList.add("active")
     $header.appendChild(BannerHeaderInicio());
     $main.appendChild(InicioContent());
-  } else if (hash === "#/detalles-videojuego.html") {
+  } else if (hash === "#/detalles-videojuego") {
     $header.appendChild(MainBanner("Acerca del videojuego"));
     $main.appendChild(DetallesVideojuego());
     // obtener contenedor donde se van a desplegar los personajes
     const $personajesContainer = d.getElementById("personajes");
     $personajesContainer.insertAdjacentElement("beforeend", PersonajesCard());
-  } else if (hash === "#/otros-videojuegos.html") {
+  } else if (hash === "#/otros-videojuegos") {
     $header.appendChild(MainBanner("Otros videojuegos que podrían gustarte"));
     $main.appendChild(await GameCards());
   }else if (hash === "#/contacto") {
     $header.appendChild(MainBanner("Contactanos"))
     $main.appendChild(Contacto())
+  }
+  else if (hash === "#/niveles-juego") {
+    $header.appendChild(MainBanner("Niveles del juego"))
+    $main.appendChild(NivelesJuegos())
   }
 
   // Agregar y quitar clase actives de los enlaces

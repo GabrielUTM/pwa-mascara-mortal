@@ -1,4 +1,3 @@
-import { BannerHeaderInicio } from "./BannerHeaderInicio.js";
 export function Header() {
   const $header = document.createElement("header");
   const $nav = document.createElement("div");
@@ -22,13 +21,13 @@ export function Header() {
                                 <a class="nav-link" href="#/">Inicio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#/detalles-videojuego.html">Acerca del videojuego</a>
+                                <a class="nav-link" href="#/detalles-videojuego">Acerca del videojuego</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#/otros-videojuegos.html">Otros videojuegos</a>
+                                <a class="nav-link" href="#/otros-videojuegos">Otros videojuegos</a>
                             </li>
                             <li class="m-0">
-                                <a class="navbar-brand d-flex justify-content-center" href="index.html">
+                                <a class="navbar-brand d-flex justify-content-center" href="#/">
                                     <figure class="mb-0 figure__logo"><img src="app/assets/images/zomtek.png"
                                             alt="logo" class="header__img"></figure>
                                 </a>
@@ -36,11 +35,8 @@ export function Header() {
                             <li class="nav-item">
                                 <a class="nav-link" href="#/contacto">Contacto</a>
                             </li>
-                            <li class="nav-item mr-1 ml-0">
-                                <a class="nav-link login_btn" href="login.html">Iniciar Sesion</a>
-                            </li>
-                            <li class="nav-item ml-0">
-                                <a class="nav-link signup_btn" href="signup.html">Registrate</a>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#/niveles-juego">Niveles del juego</a>
                             </li>
                         </ul>
                     </div>

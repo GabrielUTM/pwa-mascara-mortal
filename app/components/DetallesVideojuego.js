@@ -6,16 +6,6 @@ export function DetallesVideojuego() {
         <div class="container text-justify">
             <div class="row" data-aos="fade-right">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <p>En un Sahuayo postapocalíptico, "ElSantos" debe enfrentarse a hordas de zombies para encontrar
-                        al Doctor C, el
-                        científico que liberó un virus que convirtió a la población en monstruos. Cada vez que juegues,
-                        los niveles serán
-                        diferentes, y si pierdes, tendrás que empezar de nuevo, lo que hace que el juego sea más
-                        emocionante y desafiante.</p>
-                </div>
-            </div>
-            <div class="row" data-aos="fade-right">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <p>El juego se desarrolla en el municipio de Sahuayo, Michoacán, que ha sido devastado por un virus
                         liberado por el malvado
                         "Doctor C." El virus transforma a los habitantes en zombies feroces, conocidos como los "Zombies

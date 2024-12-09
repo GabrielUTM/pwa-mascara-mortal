@@ -12,7 +12,7 @@ export function NivelesJuegos() {
                 <!-- Nivel 1 -->
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="card card__custom shadow-sm h-100">
-                        <img src="./app/assets/images/Nivel1.jpeg" class="card-img-top" alt="Nivel 1">
+                        <img src="./app/assets/images/nivel1.jpeg" class="card-img-top" alt="Nivel 1">
                         <div class="card-body text-center">
                             <h5 class="card-title card-title__custom">Nivel 1: Pueblo</h5>
                             <p class="card-text card-text__custom">Adentrate en el pueblo con la primer dificultad del nivel, cada nivel

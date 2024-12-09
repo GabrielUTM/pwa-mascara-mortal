@@ -12,7 +12,7 @@ export function NivelesJuegos() {
                 <!-- Nivel 1 -->
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="card card__custom shadow-sm h-100">
-                        <img src="./app/assets/images/nivel1.jpeg" class="card-img-top" alt="Nivel 1">
+                        <img src="./app/assets/images/Nivel1.jpeg" class="card-img-top" alt="Nivel 1">
                         <div class="card-body text-center">
                             <h5 class="card-title card-title__custom">Nivel 1: Pueblo</h5>
                             <p class="card-text card-text__custom">Adentrate en el pueblo con la primer dificultad del nivel, cada nivel
@@ -27,7 +27,7 @@ export function NivelesJuegos() {
                 <!-- Nivel 2 -->
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="card card__custom shadow-sm h-100">
-                        <img src="./app/assets/images/nivel2.jpeg" class="card-img-top" alt="Nivel 2">
+                        <img src="./app/assets/images/Nivel2.jpeg" class="card-img-top" alt="Nivel 2">
                         <div class="card-body text-center">
                             <h5 class="card-title card-title__custom">Nivel 2: Las Ruinas Abandonadas</h5>
                             <p class="card-text card-text__custom">Explora las ruinas, un nivel con mas dificultad y adentrandote al
@@ -39,7 +39,7 @@ export function NivelesJuegos() {
                 <!-- Nivel 3 -->
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="card card__custom shadow-sm h-100">
-                        <img src="./app/assets/images/nivel3.jpeg" class="card-img-top" alt="Nivel 3">
+                        <img src="./app/assets/images/Nivel3.jpeg" class="card-img-top" alt="Nivel 3">
                         <div class="card-body text-center">
                             <h5 class="card-title card-title__custom">Nivel 3: Instalaciones Dr. C</h5>
                             <p class="card-text card-text__custom">Un lugar peligroso lleno de enemigos, este nivel tiene la mayor

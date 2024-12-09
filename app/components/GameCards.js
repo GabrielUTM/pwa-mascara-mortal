@@ -25,12 +25,20 @@ export async function GameCards() {
    }" class="card-img-top" alt="...">
   <div class="card-body card__text-content overflow-auto">
     <h5 class="card-title card__title text-center">${game.title}</h5>
-    <p class="card-text card__text">${game.developer}</p>
   </div>
   <ul class="list-group list-group-flush list__group-bg">
-    <li class="list-group-item">Bando: ${game.genre}</li>
-    <li class="list-group-item">Estatura: ${game.publisher}</li>
-    <li class="list-group-item">Peso: ${game.platform}</li>
+    <li class="list-group-item border-top border-danger list__item">Genero: ${
+      game.genre
+    }</li>
+    <li class="list-group-item border-top border-danger list__item">Publisher: ${
+      game.publisher
+    }</li>
+    <li class="list-group-item border-top border-danger list__item">Plataforma: ${
+      game.platform
+    }</li>
+    <li class="list-group-item border-top border-danger list__item">Desarrollador: ${
+      game.developer
+    }</li>
   </ul>
 </div>
     `;

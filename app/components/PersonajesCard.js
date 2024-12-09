@@ -64,9 +64,15 @@ export function PersonajesCard() {
     <p class="card-text card__text">${character.descripcion}</p>
   </div>
   <ul class="list-group list-group-flush list__group-bg">
-    <li class="list-group-item">Bando: ${character.bando}</li>
-    <li class="list-group-item">Estatura: ${character.estatura}</li>
-    <li class="list-group-item">Peso: ${character.peso}</li>
+    <li class="list-group-item border-top border-danger list__item">Bando: ${
+      character.bando
+    }</li>
+    <li class="list-group-item  border-top border-danger list__item">Estatura: ${
+      character.estatura
+    }</li>
+    <li class="list-group-item border-top border-danger list__item">Peso: ${
+      character.peso
+    }</li>
   </ul>
 </div>
     `;

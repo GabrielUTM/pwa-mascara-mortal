@@ -15,6 +15,7 @@ const urlsToCache = [
   // Rutas externas
   "https://mmo-games.p.rapidapi.com",
   "https://www.mmobomb.com",
+  "https://cdnjs.cloudflare.com",
 ];
 
 // Evento de instalación

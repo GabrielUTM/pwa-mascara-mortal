@@ -2521,69 +2521,94 @@ textarea {
 .gaming_tournament_image {
     height: 100%;
 }
-.card__personajes{
+
+.card__personajes {
     max-height: 40rem;
 }
-.card__title{
-    font-size: 30px;
+
+.card__title {
+    font-size: 25px;
     line-height: 40px;
 }
-.card__text{
+
+.card__text {
     font-size: 20px;
 }
 
-.card__text-content{
+.card__text-content {
     background-color: var(--e-global-color-accent);
 }
-.list__group-bg{
+
+.list__group-bg {
     font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
 }
 
-.figure__inspiracion{
+.list__item {
+    background-color: rgba(0, 0, 0, 0.7);
+
+}
+
+.figure__inspiracion {
     max-width: 600px;
     margin: 0 auto 0 auto;
 }
-.img__inspiracion{
+
+.img__inspiracion {
     width: 100%;
     height: 100%;
 }
-.text__subitulo{
+
+.text__subitulo {
     text-align: center;
 }
 
-.card {
-    background-color: rgba(0, 0, 0, 0.7); /* Fondo negro con transparencia */
-    color: #fff; /* Texto blanco */
-    border: none; /* Sin bordes */
+.card__custom {
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Fondo negro con transparencia */
+    color: #fff;
+    /* Texto blanco */
+    border: none;
+    /* Sin bordes */
 }
 
-.card h5.card-title {
-    font-size: 1.2rem; /* Ajusta el tamaño del título */
-    font-weight: bold; /* Mantén el título destacado */
+.card-title__custom {
+    font-size: 1.2rem;
+    /* Ajusta el tamaño del título */
+    font-weight: bold;
+    /* Mantén el título destacado */
 }
 
-.card p.card-text {
-    font-size: 0.9rem; /* Haz el texto de descripción más pequeño */
-    line-height: 1.4; /* Espaciado entre líneas para mejorar la lectura */
+.card-text__custom {
+    font-size: 0.9rem;
+    /* Haz el texto de descripción más pequeño */
+    line-height: 1.4;
+    /* Espaciado entre líneas para mejorar la lectura */
 }
 
 .text-white {
-    font-size: 0.85rem; /* Reduce el texto de "Dificultad" */
+    font-size: 0.85rem;
+    /* Reduce el texto de "Dificultad" */
 }
 
 
 .card-img-top {
-    border-bottom: 2px solid rgba(255, 255, 255, 0.2); /* Línea decorativa debajo de la imagen */
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+    /* Línea decorativa debajo de la imagen */
 }
 
 .progress {
-    background-color: rgba(255, 255, 255, 0.2); /* Barra de progreso semitransparente */
+    background-color: rgba(255, 255, 255, 0.2);
+    /* Barra de progreso semitransparente */
 }
 
 .progress-bar {
-    background-color: #dc3545; /* Rojo oscuro para la barra de progreso */
+    background-color: #dc3545;
+    /* Rojo oscuro para la barra de progreso */
 }
 
 .text-white {
-    color: #fff !important; /* Asegura que el texto "Dificultad" sea blanco */
+    color: #fff !important;
+    /* Asegura que el texto "Dificultad" sea blanco */
 }

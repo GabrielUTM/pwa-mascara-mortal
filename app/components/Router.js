@@ -4,6 +4,7 @@ import { BannerHeaderInicio } from "./BannerHeaderInicio.js";
 import { InicioContent } from "./InicioContent.js";
 import { MainBanner } from "./MainBanner.js";
 import { PersonajesCard } from "./PersonajesCard.js";
+import { Contacto } from "./Contacto.js";
 
 export async function Router() {
   const d = document,
@@ -27,6 +28,9 @@ export async function Router() {
   } else if (hash === "#/otros-videojuegos.html") {
     $header.appendChild(MainBanner("Otros videojuegos que podrían gustarte"));
     $main.appendChild(await GameCards());
+  }else if (hash === "#/contacto") {
+    $header.appendChild(MainBanner("Contactanos"))
+    $main.appendChild(Contacto())
   }
 
   // Agregar y quitar clase actives de los enlaces

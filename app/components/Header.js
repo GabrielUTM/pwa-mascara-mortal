@@ -34,7 +34,7 @@ export function Header() {
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Historia del juego</a>
+                                <a class="nav-link" href="#/contacto">Contacto</a>
                             </li>
                             <li class="nav-item mr-1 ml-0">
                                 <a class="nav-link login_btn" href="login.html">Iniciar Sesion</a>

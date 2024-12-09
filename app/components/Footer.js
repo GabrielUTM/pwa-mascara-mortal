@@ -14,7 +14,7 @@ export function Footer() {
                     <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
                         <ul class="mb-2 list-unstyled">
                             <li><a href="index.html">
-                                    <figure class="mb-0"><img src="app/assets/images/footer_logo.png" alt=""></figure>
+                                    <figure class="mb-0"><img src="app/assets/images/favicon/favicon-96x96.png" alt=""></figure>
                                 </a></li>
                         </ul>
                     </div>

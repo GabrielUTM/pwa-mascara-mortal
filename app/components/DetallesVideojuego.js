@@ -58,7 +58,7 @@ export function DetallesVideojuego() {
                         <div class="lower_portion_wrapper mx-auto">
                             <div class="lower_portion">
                                 <div class="span_wrapper text__subitulo">
-                                    <span> FPS | Survival Horror
+                                    <span> FPS | Survival Horror | Comedia
                                     </span>
                                 </div>
                                 <a href="#" class="text-decoration-none" data-toggle="modal"

@@ -14,6 +14,8 @@ const urlsToCache = [
   "./assets/bootstrap/js/custom.js",
   "./assets/bootstrap/css/bootstrap.min.css",
   "./assets/images/SANTOS.jpg",
+  "./assets/images/mascaratittle.png",
+  "./assets/images/zomtek.png",
   "./assets/images/1.png",
   "./assets/images/2.png",
   "./assets/images/3.png",

@@ -18,5 +18,6 @@ export async function apiRequests() {
   <p>Ocurrió un error al acceder a la información</p>
   </div>
   `;
+    document.querySelector(".loader").style.display = "none";
   }
 }

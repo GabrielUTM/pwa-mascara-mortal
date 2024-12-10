@@ -27,10 +27,6 @@ const urlsToCache = [
   "./helpers/api_requests.js",
   "./components/GameCards.js",
   "./components/Router.js",
-  // Rutas externas
-  "https://mmo-games.p.rapidapi.com",
-  "https://www.mmobomb.com",
-  "https://cdnjs.cloudflare.com",
 ];
 
 // Evento de instalación

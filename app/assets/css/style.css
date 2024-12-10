@@ -21,7 +21,7 @@ Project:  Crox E-Sports
 13. Footer Section
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500&amp;family=Teko:wght@300;400;500;600&amp;display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500&amp;family=Teko:wght@300;400;500;600&amp;display=swap'); */
 
 body {
     font-family: 'Barlow', sans-serif;
@@ -54,11 +54,12 @@ body {
 /* Home Page Header Section Style */
 
 .banner-section-outer {
-    background-image: url('../images/home_banner_background.png');
+    background-image: url('../images/sub_banner_background.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
+    background-color: #000;
     z-index: 1;
 }
 
@@ -654,7 +655,8 @@ body {
 }
 
 .live_stream_section h2 {
-    margin-bottom: 20px;
+    margin-bottom: 27px;
+    padding-bottom: 15px;
 }
 
 .live_stream_section .mb-5,
@@ -830,7 +832,7 @@ body {
 }
 
 .blog_posts_section h2 {
-    margin-bottom: 20px;
+    margin-bottom: 2rem
 }
 
 .blog_posts_section .mb-5,
@@ -848,7 +850,7 @@ body {
 
 .blog_posts_content .lower_portion_wrapper {
     padding: 25px 0px;
-    text-align: left;
+    text-align: justify;
 }
 
 .blog_posts_content .lower_portion .span_wrapper {
@@ -2508,4 +2510,125 @@ textarea {
 .header__img {
     width: 100%;
     height: 100%;
+}
+
+.gaming_tournament_image-figure {
+    height: 680px;
+    display: flex;
+    justify-content: center;
+}
+
+.gaming_tournament_image {
+    height: 100%;
+}
+
+.card__personajes {
+    max-height: 40rem;
+}
+
+.card__title {
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.card__text {
+    font-size: 20px;
+}
+
+.card__text-content {
+    background-color: var(--e-global-color-accent);
+}
+
+.list__group-bg {
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+}
+
+.list__item {
+    background-color: rgba(0, 0, 0, 0.7);
+
+}
+
+.figure__inspiracion {
+    max-width: 600px;
+    margin: 0 auto 0 auto;
+}
+
+.img__inspiracion {
+    width: 100%;
+    height: 100%;
+}
+
+.text__subitulo {
+    text-align: center;
+}
+
+.card__custom {
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Fondo negro con transparencia */
+    color: #fff;
+    /* Texto blanco */
+    border: none;
+    /* Sin bordes */
+}
+
+.card-title__custom {
+    font-size: 1.2rem;
+    /* Ajusta el tamaño del título */
+    font-weight: bold;
+    /* Mantén el título destacado */
+}
+
+.card-text__custom {
+    font-size: 0.9rem;
+    /* Haz el texto de descripción más pequeño */
+    line-height: 1.4;
+    /* Espaciado entre líneas para mejorar la lectura */
+}
+
+.text-white {
+    font-size: 0.85rem;
+    font-weight: 900;
+    /* Reduce el texto de "Dificultad" */
+}
+
+
+.card-img-top {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+    /* Línea decorativa debajo de la imagen */
+}
+
+.progress {
+    background-color: rgba(255, 255, 255, 0.2);
+    /* Barra de progreso semitransparente */
+}
+
+.progress-bar {
+    background-color: #dc3545;
+    /* Rojo oscuro para la barra de progreso */
+}
+
+.text-white {
+    color: #fff !important;
+    /* Asegura que el texto "Dificultad" sea blanco */
+}
+
+.error {
+    min-height: 300px;
+    background-color: var(--e-global-color-accent);
+    color: var(--e-global-color-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.loader{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0 1rem 0;
 }

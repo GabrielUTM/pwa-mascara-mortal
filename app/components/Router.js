@@ -30,7 +30,7 @@ export async function Router() {
     $header.appendChild(MainBanner("Otros videojuegos que podrían gustarte"));
     $main.appendChild(await GameCards());
   } else if (hash === "#/contacto") {
-    $header.appendChild(MainBanner("Contactanos"));
+    $header.appendChild(MainBanner("Contáctanos"));
     $main.appendChild(Contacto());
   } else if (hash === "#/niveles-juego") {
     $header.appendChild(MainBanner("Niveles del juego"));

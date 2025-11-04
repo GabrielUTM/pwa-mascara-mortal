@@ -22,7 +22,7 @@ export function Footer() {
                     </div>
                     <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
                         <ul class="mb-0 list-unstyled neg_margin">
-                            <li class="links"><a href="#/niveles-juego">Niveles del juego.</a></li>
+                            <li class="links"><a href="#/niveles-juego">Niveles del juego</a></li>
                         </ul>
                     </div>
                 </div>
